@@ -25,10 +25,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///move 10% towards the player (bette view) 
+            <string>///move x% towards the player (bette view) 
 
-x+= (obj_player.x - x)* .1;
-y+= (obj_player.y - y)* .1;
+x+= (obj_player.x - x)* .2;
+y+= (obj_player.y - y)* .2;
 
 </string>
           </argument>
