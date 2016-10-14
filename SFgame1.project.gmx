@@ -12,7 +12,7 @@
     <sprite>sprites\spr_player_left</sprite>
     <sprite>sprites\spr_player_up</sprite>
     <sprite>sprites\spr_player_shadow</sprite>
-    <sprite>sprites\spr_t</sprite>
+    <sprite>sprites\spr_6</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_grass</background>
