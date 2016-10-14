@@ -6,7 +6,6 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\spr_temp_hero</sprite>
     <sprite>sprites\spr_wall</sprite>
     <sprite>sprites\spr_player_down</sprite>
     <sprite>sprites\spr_player_right</sprite>
