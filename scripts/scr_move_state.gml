@@ -10,6 +10,12 @@ if(dash_key)
     alarm[0] = room_speed/7;
 }
 
+if(attack_key)
+{
+    image_index=0;
+    state = scr_attack_state;
+}
+
 var xaxis=(right_key - left_key); //za x axis
 var yaxis=(down_key - up_key); //za y axis
 
