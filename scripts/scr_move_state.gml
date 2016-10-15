@@ -3,11 +3,18 @@
 ///move
 
 scr_get_input();
+
+if(dash_key)
+{
+    state=scr_dash_state;
+    alarm[0] = room_speed/7;
+}
+
 var xaxis=(right_key - left_key); //za x axis
 var yaxis=(down_key - up_key); //za y axis
 
 //get direction
-var dir = point_direction(0,0, xaxis, yaxis);
+dir = point_direction(0,0, xaxis, yaxis);
 
 //get the lenght
 if (xaxis == 0 and yaxis=0)
