@@ -23,11 +23,12 @@ var yaxis=(down_key - up_key); //za y axis
 dir = point_direction(0,0, xaxis, yaxis);
 
 //get the lenght
-if (xaxis == 0 and yaxis=0)
+if (xaxis == 0 and yaxis==0)
 {
     len=0;
     }else{
     len=spd;
+    scr_get_face();
 }
 
 //horizontal i vertical speed
@@ -42,27 +43,25 @@ phy_position_y += vspd;
 image_speed =.2;
 if(len==0) image_index = 0;
 
-//vertical
-if(vspd>0)
-{
-    sprite_index=spr_player_down;
-}
-else if (vspd<0)
-{
-    sprite_index=spr_player_up;
-}
 
-//horizontal
-if (hspd > 0)
+switch(face)
 {
-    sprite_index=spr_player_right;
+        case RIGHT:
+        sprite_index=spr_player_right;
+        break;
+        
+        case UP:
+        sprite_index=spr_player_up;
+        break;
+        
+        case LEFT:
+        sprite_index=spr_player_left;
+        break;
+        
+        case DOWN:
+        sprite_index=spr_player_down;
+        break;
 }
-else if (hspd < 0)
-{
-    sprite_index=spr_player_left;
-}
-
-
 
 
 

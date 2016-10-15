@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>
 event_inherited();
-hp=3;
+hp=9;
 spd=2;
 hspd=0; //horizontal speed
 vspd=0; //vertical speed
@@ -37,6 +37,7 @@ attacked=false;
 image_speed = 0;
 scr_get_input();
 state = scr_move_state;
+face = RIGHT;
 
 </string>
           </argument>
