@@ -21,6 +21,7 @@
     </sprites>
     <sprite>sprites\spr_damage</sprite>
     <sprite>sprites\spr_expr</sprite>
+    <sprite>sprites\sprite13</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_grass</background>
