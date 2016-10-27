@@ -93,6 +93,11 @@ if(stamina &lt; maxstamina &amp;&amp; alarm[0] == -1)
 {
     stamina++;
 }
+
+if(hp&gt;maxhp)
+{
+    hp=maxhp;
+}
 </string>
           </argument>
         </arguments>

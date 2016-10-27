@@ -4,6 +4,7 @@
 
 scr_get_input();
 
+
 if(dash_key && obj_player_stats.stamina>=DASH_COST)
 {
     state=scr_dash_state;
